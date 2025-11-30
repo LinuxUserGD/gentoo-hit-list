@@ -22,4 +22,4 @@ jobs:
       - name: Run a multi-line script
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: gentoo-version-check.sh
+        run: ./gentoo-version-check.sh
