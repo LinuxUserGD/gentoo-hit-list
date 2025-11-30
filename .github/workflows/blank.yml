@@ -21,6 +21,6 @@ jobs:
       
       - name: Run a multi-line script
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           gh api rate_limit | cat
