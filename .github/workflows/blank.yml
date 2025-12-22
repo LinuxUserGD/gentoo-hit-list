@@ -23,7 +23,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          ./gentoo-version-check.sh > README.md
+          ./gentoo-version-check.sh | tee README.md
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add README.md
