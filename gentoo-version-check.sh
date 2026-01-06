@@ -5,7 +5,7 @@
     exit 1
 }
 
-git clone --single-branch --depth 1 --branch dev https://github.com/gentoo/guru.git > /dev/null || git -C ./guru pull > /dev/null
+git clone --single-branch --depth 1 --branch master https://github.com/12101111/overlay.git > /dev/null || git -C ./overlay pull > /dev/null
 # git clone --single-branch --depth 1 --branch dev https://github.com/gentoo/gentoo.git > /dev/null || git -C ./gentoo pull > /dev/null
 
 printTable() {
@@ -55,7 +55,7 @@ printTable() {
                     sort --check=quiet --version-sort
                     } && {
                     newPackageName="$(echo "$packageName" | grep -oE '[^/]+/[^/]+$')"
-                    printf "| [%s](https://github.com/gentoo/guru/tree/dev/%s) |" "$newPackageName" "$newPackageName"
+                    printf "| [%s](https://github.com/12101111/overlay/tree/master/%s) |" "$newPackageName" "$newPackageName"
                     printf " %s |" "$actualVersion"
                     printf " [%s](https://github.com/%s/tags) |" "$latestVersion" "$properRemote"
                     maintainer=""
@@ -102,14 +102,14 @@ I tried to find solutions, and in turn also founded like minded people with the 
 but none of them seemed suitable for me, and making something myself is always more flexible then trying to find other
 solutions that may not even fulfill my full use case
 
-You may ask why use this when stuff like [repology](https://repology.org/projects/?inrepo=gentoo_ovl_guru&outdated=1)
-exists? it's because this version checks ::guru's dev branch, which is easier for contributors because some package may
+You may ask why use this when stuff like [repology](https://repology.org/projects/?inrepo=gentoo_ovl_overlay&outdated=1)
+exists? it's because this version checks ::overlay's dev branch, which is easier for contributors because some package may
 already be updated in the dev branch, and hasn't been updated to the master branch, so repology doesn't track that.
 
 on top of that repology only compares the versions in all package repositories and treats the latest updated version as
 the 'latest build', so what it technically shows as the 'latest version' can actually be outdated from the upstream, to
-explain in simpler terms: if upstream has version 3, arch has version 2, and guru has version 2, repology will show that
-guru is up to date, because it's just comparing betweent the different different versions. but this repo doesn't do it,
+explain in simpler terms: if upstream has version 3, arch has version 2, and overlay has version 2, repology will show that
+overlay is up to date, because it's just comparing betweent the different different versions. but this repo doesn't do it,
 it tries to track upstream and get the latest version data, hence so many api calls.
 
 while some might say that this level of data is not needed, i say that it is needed since just by glancing at the data
@@ -117,7 +117,7 @@ you can guess how many versions is it behind
 
  - Only github is supported for now, will probably add more source checkers later
 
- - Currently it will check ::guru so i don't burn through my github api calls in a single run, if you want a report
+ - Currently it will check ::overlay so i don't burn through my github api calls in a single run, if you want a report
  generated for ::gentoo, you should self host it/fork the repo and run the actions manually when you want
 
  - The report might be outdated, because the github actions will only run once per X ammount of time, the time is
@@ -145,11 +145,11 @@ you can guess how many versions is it behind
  - if you want to self run this using github actions (i recommend this way), you *should* be just able to fork it,
  create token and set GH_TOKEN secret, then run it through github actions
 
-# [Guru Dev Branch](https://github.com/gentoo/guru/tree/dev):\n\n"
-printTable "$(realpath ./guru)"
+# [Overlay Master Branch](https://github.com/12101111/overlay/tree/master):\n\n"
+printTable "$(realpath ./overlay)"
 # printf "\n\n"
 # printf "# [Gentoo Master Branch](https://github.com/gentoo/gentoo/tree/dev):\n\n"
-# printTable "$(realpath ./guru)"
+# printTable "$(realpath ./overlay)"
 
 printf "\n\n\n\n\n\n<sub>Congrats, you made it to the bottom</sub>\n
 <sub>if you can afford to pay my wifi bills, you can support me in patreon: https://www.patreon.com/IngenarelNeoJesus</sub>\n
