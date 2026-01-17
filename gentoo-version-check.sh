@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/bin/sh
 
 [ -z "$GH_TOKEN" ] && {
     echo "No valid github token"
@@ -33,7 +33,7 @@ printTable() {
                 latestVersion="$(
                 gh release --repo "$properRemote" list --limit 2 --order desc --json tagName --jq '.[].tagName'\
                     |
-                sed '/nightly/d'\
+                    sed -E '/(nightly|continuous|test-build|weekly|latest|current)/d'\
                     |
                 head -n1\
                     |
