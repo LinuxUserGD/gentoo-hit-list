@@ -1,6 +1,6 @@
 #!/bin/sh
 
-scriptDir="$(realpath --canonicalize-missing "$0/..")"
+scriptDir="$(realpath --canonicalize-missing "$0/.." --relative-to="$PWD" )"
 
 . "$scriptDir/utils.sh"
 

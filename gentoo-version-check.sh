@@ -8,7 +8,7 @@
     }
 }
 
-scriptDir="$(realpath --canonicalize-missing "$0/..")"
+scriptDir="$(realpath --canonicalize-missing "$0/.." --relative-to="$PWD" )"
 
 while IFS='' read -r line; do
     repoName="$(echo "$line" | awk '{print $1}')"
