@@ -580,4 +580,4 @@ you can guess how many versions is it behind
 
 <sub>i don't like putting this in my projects, but until my dropout ass finds a way to get a job/proper funding, i have
 no choice but to accept donations, which i personally don't want to trust me</sub>
-<details>
+</details>
