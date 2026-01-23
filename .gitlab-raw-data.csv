@@ -16,6 +16,6 @@ sci-physics/ovito,https://github.com/gentoo/guru/tree/dev/sci-physics/ovito,3.10
 net-misc/peertube-viewer-rs,https://github.com/gentoo/guru/tree/dev/net-misc/peertube-viewer-rs,1.8.6,1.8.7,https://gitlab.com/peertube-viewer/peertube-viewer-rs/tags,-,-
 www-servers/hinsightd,https://github.com/gentoo/guru/tree/dev/www-servers/hinsightd,0.9.17,0.9.21,https://gitlab.com/tiotags/hin9/tags,tiotags1@gmail.com,https://repology.org/maintainer/tiotags1@gmail.com
 app-admin/krapplet,https://github.com/gentoo/guru/tree/dev/app-admin/krapplet,0.3.1,0.4.0,https://gitlab.com/hfernh/krapplet/tags,hfern@fernhout.info,https://repology.org/maintainer/hfern@fernhout.info
-net-im/flare,https://github.com/gentoo/guru/tree/dev/net-im/flare,0.12.0,0.18.0,https://gitlab.com/schmiddi-on-mobile/flare/tags,-,-
+net-im/flare,https://github.com/gentoo/guru/tree/dev/net-im/flare,0.12.0,0.18.1,https://gitlab.com/schmiddi-on-mobile/flare/tags,-,-
 mpv-plugin/mpv-plugin-xrandr,https://github.com/gentoo/guru/tree/dev/mpv-plugin/mpv-plugin-xrandr,2023.06.19,tags/r2023_06_19,https://gitlab.com/lvml/mpv-plugin-xrandr/tags,smaniotto.nicola@gmail.com,https://repology.org/maintainer/smaniotto.nicola@gmail.com
 app-office/pyspread,https://github.com/gentoo/guru/tree/dev/app-office/pyspread,2.4,2.4.3,https://gitlab.com/pyspread/pyspread/tags,-,-
