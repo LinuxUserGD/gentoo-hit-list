@@ -55,7 +55,8 @@ you can guess how many versions is it behind
 | --- | --- | --- | --- |
 | [sys-fs/zfs](https://github.com/12101111/overlay/tree/master/sys-fs/zfs) | 2.4.0 | [zfs-2.4.0](https://github.com/openzfs/zfs/tags) | [gentoo@alexmoch.com](https://repology.org/maintainer/gentoo@alexmoch.com) |
 | [dev-util/binaryen](https://github.com/12101111/overlay/tree/master/dev-util/binaryen) | 125 | [ersion_125](https://github.com/WebAssembly/binaryen/tags) | [lssndrbarbieri@gmail.com](https://repology.org/maintainer/lssndrbarbieri@gmail.com) |
-| [app-editors/zed](https://github.com/12101111/overlay/tree/master/app-editors/zed) | 0.221.5 | [0.223.0-pre](https://github.com/zed-industries/zed/tags) | [gentoo.2019@r123.de](https://repology.org/maintainer/gentoo.2019@r123.de) |
+| [app-editors/zed](https://github.com/12101111/overlay/tree/master/app-editors/zed) | 0.221.5 | [0.222.4](https://github.com/zed-industries/zed/tags) | [gentoo.2019@r123.de](https://repology.org/maintainer/gentoo.2019@r123.de) |
+| [gui-apps/waybar](https://github.com/12101111/overlay/tree/master/gui-apps/waybar) | 0.14.0 | [0.15.0](https://github.com/Alexays/Waybar/tags) | [gentoo@jonas-toth.eu](https://repology.org/maintainer/gentoo@jonas-toth.eu) |
 | [sys-process/systemd-cron](https://github.com/12101111/overlay/tree/master/sys-process/systemd-cron) | 2.5.1 | [2.6.0](https://github.com/systemd-cron/systemd-cron/tags) | [rich0@gentoo.org](https://repology.org/maintainer/rich0@gentoo.org) |
 | [llvm-runtimes/libcxx](https://github.com/12101111/overlay/tree/master/llvm-runtimes/libcxx) | 21.1.8 | [llvmorg-22.1.0-rc2](https://github.com/llvm/llvm-project/tags) | [llvm@gentoo.org](https://repology.org/maintainer/llvm@gentoo.org) |
 | [llvm-runtimes/openmp](https://github.com/12101111/overlay/tree/master/llvm-runtimes/openmp) | 21.1.8 | [llvmorg-22.1.0-rc2](https://github.com/llvm/llvm-project/tags) | [voyageur@gentoo.org](https://repology.org/maintainer/voyageur@gentoo.org) |
