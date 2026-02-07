@@ -93,7 +93,7 @@ wanna check, and the third item is the repo link
 <!-- LTeX: enabled=false -->
 <!-- start -->
 <details>
-    <summary><a href="https://codeberg.org/LinuxUserGD/overlay.git/tree/dev">LinuxUserGD-overlay dev branch</a></summary>
+    <summary><a href="https://codeberg.org/LinuxUserGD/overlay.git/tree/dev">overlay dev branch</a></summary>
 
 | Package | Downstream | Upstream | Maintainer |
 | ------- | ---------- | -------- | ---------- |
