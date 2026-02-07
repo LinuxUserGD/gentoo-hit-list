@@ -97,7 +97,7 @@ wanna check, and the third item is the repo link
 
 | Package | Downstream | Upstream | Maintainer |
 | ------- | ---------- | -------- | ---------- |
-| [dev-util/wasmtime](https://codeberg.org/LinuxUserGD/overlay/tree/dev/dev-util/wasmtime) | 38.0.3 | [dev](https://github.com/bytecodealliance/wasmtime/tags) | [pinicarus@protonmail.com](https://repology.org/maintainer/pinicarus@protonmail.com) |
+| [dev-util/wasmtime](https://codeberg.org/LinuxUserGD/overlay/tree/dev/dev-util/wasmtime) | 41.0.3 | [dev](https://github.com/bytecodealliance/wasmtime/tags) | [pinicarus@protonmail.com](https://repology.org/maintainer/pinicarus@protonmail.com) |
 
 </details>
 <!-- end -->
