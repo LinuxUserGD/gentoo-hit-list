@@ -97,6 +97,7 @@ wanna check, and the third item is the repo link
 
 | Package | Downstream | Upstream | Maintainer |
 | ------- | ---------- | -------- | ---------- |
+| [dev-lang/rust](https://codeberg.org/LinuxUserGD/overlay/tree/dev/dev-lang/rust) | 1.90.0 | [1.95.0](https://github.com/rust-lang/rust/tags) | [rust@gentoo.org](https://repology.org/maintainer/rust@gentoo.org) |
 
 </details>
 <!-- end -->
