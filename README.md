@@ -98,7 +98,7 @@ wanna check, and the third item is the repo link
 | Package | Downstream | Upstream | Maintainer |
 | ------- | ---------- | -------- | ---------- |
 | [budgie-base/budgie-desktop](https://codeberg.org/LinuxUserGD/overlay/tree/dev/budgie-base/budgie-desktop) | 10.10.2 | [10.10.4](https://github.com/BuddiesOfBudgie/budgie-desktop/tags) | [Xavalia@gmail.com](https://repology.org/maintainer/Xavalia@gmail.com) |
-| [dev-lang/rust](https://codeberg.org/LinuxUserGD/overlay/tree/dev/dev-lang/rust) | 1.90.0 | [1.99.1](https://github.com/rust-lang/rust/tags) | [rust@gentoo.org](https://repology.org/maintainer/rust@gentoo.org) |
+| [dev-lang/rust](https://codeberg.org/LinuxUserGD/overlay/tree/dev/dev-lang/rust) | 1.90.0 | [1.100.0](https://github.com/rust-lang/rust/tags) | [rust@gentoo.org](https://repology.org/maintainer/rust@gentoo.org) |
 
 </details>
 <!-- end -->
